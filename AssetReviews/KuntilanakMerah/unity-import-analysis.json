@@ -1,0 +1,194 @@
+{
+    "unityVersion": "6000.0.43f1",
+    "globalScale": 1.0,
+    "fileScale": 0.009999999776482582,
+    "meshes": [
+        {
+            "name": "char1",
+            "vertices": 30614,
+            "triangles": 28630,
+            "subMeshes": 1,
+            "blendShapes": 0,
+            "bindPoses": 24,
+            "uvCount": 30614
+        }
+    ],
+    "materials": [
+        {
+            "name": "Material_1",
+            "shader": "Standard",
+            "baseColorTexture": "Assets/Model/texture_0.png",
+            "emissionTexture": "Assets/Model/texture_0.png",
+            "normalTexture": ""
+        }
+    ],
+    "clips": [
+        {
+            "name": "Armature|Armature|clip0|baselayer",
+            "length": 1.0,
+            "frameRate": 30.0,
+            "curveBindings": 0,
+            "maximumKeysPerCurve": 0,
+            "isHumanMotion": false
+        }
+    ],
+    "skinnedRenderers": 1,
+    "meshRenderers": 0,
+    "skinBones": [
+        24
+    ],
+    "transformNames": [
+        "kuntilanak_merah_and_rig(Clone)",
+        "Armature",
+        "Hips",
+        "LeftUpLeg",
+        "LeftLeg",
+        "LeftFoot",
+        "LeftToeBase",
+        "RightUpLeg",
+        "RightLeg",
+        "RightFoot",
+        "RightToeBase",
+        "Spine02",
+        "Spine01",
+        "Spine",
+        "LeftShoulder",
+        "LeftArm",
+        "LeftForeArm",
+        "LeftHand",
+        "neck",
+        "Head",
+        "head_end",
+        "headfront",
+        "RightShoulder",
+        "RightArm",
+        "RightForeArm",
+        "RightHand",
+        "char1"
+    ],
+    "modelBoundsCenter": {
+        "x": -0.018785851076245309,
+        "y": 0.7870112657546997,
+        "z": -0.04810011386871338
+    },
+    "modelBoundsSize": {
+        "x": 1.763503909111023,
+        "y": 2.1980855464935304,
+        "z": 1.859975814819336
+    },
+    "headPosition": {
+        "x": -0.0036465912126004698,
+        "y": 1.4426747560501099,
+        "z": -0.019207000732421876
+    },
+    "headFrontDirection": {
+        "x": 1.8931890721773926e-8,
+        "y": 0.0,
+        "z": 1.0
+    },
+    "bakedBoundsCenter": {
+        "x": -1.7881393432617188e-7,
+        "y": 0.8500004410743713,
+        "z": -1.341104507446289e-7
+    },
+    "bakedBoundsSize": {
+        "x": 1.6215717792510987,
+        "y": 1.6999993324279786,
+        "z": 0.4095751643180847
+    },
+    "genericRig": {
+        "animationType": "Generic",
+        "avatarPresent": true,
+        "avatarValid": true,
+        "avatarHuman": false,
+        "humanMappings": [],
+        "error": ""
+    },
+    "humanoidRig": {
+        "animationType": "Human",
+        "avatarPresent": true,
+        "avatarValid": true,
+        "avatarHuman": false,
+        "humanMappings": [
+            "Hips=Hips",
+            "LeftUpperLeg=LeftUpLeg",
+            "RightUpperLeg=RightUpLeg",
+            "LeftLowerLeg=LeftLeg",
+            "RightLowerLeg=RightLeg",
+            "RightFoot=RightFoot",
+            "Spine=Spine02",
+            "Chest=Spine01",
+            "Neck=neck",
+            "Head=Head",
+            "LeftShoulder=LeftShoulder",
+            "RightShoulder=RightShoulder",
+            "LeftUpperArm=LeftArm",
+            "RightUpperArm=RightArm",
+            "LeftLowerArm=LeftForeArm",
+            "RightLowerArm=RightForeArm",
+            "LeftHand=LeftHand",
+            "RightHand=RightHand",
+            "Jaw=headfront",
+            "UpperChest=Spine"
+        ],
+        "error": "Rig Error:  Invalid Avatar Rig Configuration. Missing or invalid transform:\n\tRequired human bone 'LeftFoot' not found\n"
+    },
+    "humanoidWithoutBoneOptimization": {
+        "animationType": "Human",
+        "avatarPresent": true,
+        "avatarValid": true,
+        "avatarHuman": false,
+        "humanMappings": [
+            "Hips=Hips",
+            "LeftUpperLeg=LeftUpLeg",
+            "RightUpperLeg=RightUpLeg",
+            "LeftLowerLeg=LeftLeg",
+            "RightLowerLeg=RightLeg",
+            "RightFoot=RightFoot",
+            "Spine=Spine02",
+            "Chest=Spine01",
+            "Neck=neck",
+            "Head=Head",
+            "LeftShoulder=LeftShoulder",
+            "RightShoulder=RightShoulder",
+            "LeftUpperArm=LeftArm",
+            "RightUpperArm=RightArm",
+            "LeftLowerArm=LeftForeArm",
+            "RightLowerArm=RightForeArm",
+            "LeftHand=LeftHand",
+            "RightHand=RightHand",
+            "Jaw=headfront",
+            "UpperChest=Spine"
+        ],
+        "error": "Rig Error:  Invalid Avatar Rig Configuration. Missing or invalid transform:\n\tRequired human bone 'LeftFoot' not found\n"
+    },
+    "humanoidWithManualFootMapping": {
+        "animationType": "Human",
+        "avatarPresent": true,
+        "avatarValid": true,
+        "avatarHuman": true,
+        "humanMappings": [
+            "Hips=Hips",
+            "LeftUpperLeg=LeftUpLeg",
+            "RightUpperLeg=RightUpLeg",
+            "LeftLowerLeg=LeftLeg",
+            "RightLowerLeg=RightLeg",
+            "RightFoot=RightFoot",
+            "Spine=Spine02",
+            "Chest=Spine01",
+            "Neck=neck",
+            "Head=Head",
+            "LeftShoulder=LeftShoulder",
+            "RightShoulder=RightShoulder",
+            "LeftUpperArm=LeftArm",
+            "RightUpperArm=RightArm",
+            "LeftLowerArm=LeftForeArm",
+            "RightLowerArm=RightForeArm",
+            "LeftHand=LeftHand",
+            "RightHand=RightHand",
+            "UpperChest=Spine",
+            "LeftFoot=LeftFoot"
+        ],
+        "error": "Model 'kuntilanak_merah_and_rig' contains animation clip 'Armature|Armature|clip0|baselayer' which has length of 0 frames (start=0, end=0). It will result in empty animation. "
+    }
+}

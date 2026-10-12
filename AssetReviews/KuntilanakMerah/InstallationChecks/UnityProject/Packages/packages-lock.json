@@ -1,0 +1,205 @@
+{
+  "dependencies": {
+    "com.unity.burst": {
+      "version": "file:C:/Users/Naufal Ahmad A/game gila - test/Library/PackageCache/com.unity.burst@7a907cf5a459",
+      "depth": 0,
+      "source": "local",
+      "dependencies": {
+        "com.unity.mathematics": "1.2.1",
+        "com.unity.modules.jsonserialize": "1.0.0"
+      }
+    },
+    "com.unity.collections": {
+      "version": "file:C:/Users/Naufal Ahmad A/game gila - test/Library/PackageCache/com.unity.collections@56bff8827a7e",
+      "depth": 0,
+      "source": "local",
+      "dependencies": {
+        "com.unity.burst": "1.8.17",
+        "com.unity.nuget.mono-cecil": "1.11.4",
+        "com.unity.test-framework": "1.4.5",
+        "com.unity.test-framework.performance": "3.0.3"
+      }
+    },
+    "com.unity.ext.nunit": {
+      "version": "file:C:/Users/Naufal Ahmad A/game gila - test/Library/PackageCache/com.unity.ext.nunit@60ef35ffd3cd",
+      "depth": 0,
+      "source": "local",
+      "dependencies": {}
+    },
+    "com.unity.mathematics": {
+      "version": "file:C:/Users/Naufal Ahmad A/game gila - test/Library/PackageCache/com.unity.mathematics@8017b507cc74",
+      "depth": 0,
+      "source": "local",
+      "dependencies": {}
+    },
+    "com.unity.nuget.mono-cecil": {
+      "version": "file:C:/Users/Naufal Ahmad A/game gila - test/Library/PackageCache/com.unity.nuget.mono-cecil@d6f9955a5d5f",
+      "depth": 0,
+      "source": "local",
+      "dependencies": {}
+    },
+    "com.unity.render-pipelines.core": {
+      "version": "file:C:/Users/Naufal Ahmad A/game gila - test/Library/PackageCache/com.unity.render-pipelines.core@2c53672ff4c2",
+      "depth": 0,
+      "source": "local",
+      "dependencies": {
+        "com.unity.burst": "1.8.14",
+        "com.unity.mathematics": "1.3.2",
+        "com.unity.ugui": "2.0.0",
+        "com.unity.collections": "2.4.3",
+        "com.unity.modules.physics": "1.0.0",
+        "com.unity.modules.terrain": "1.0.0",
+        "com.unity.modules.jsonserialize": "1.0.0",
+        "com.unity.rendering.light-transport": "1.0.1"
+      }
+    },
+    "com.unity.render-pipelines.high-definition": {
+      "version": "file:C:/Users/Naufal Ahmad A/game gila - test/Library/PackageCache/com.unity.render-pipelines.high-definition@8310d0e96a2e",
+      "depth": 0,
+      "source": "local",
+      "dependencies": {
+        "com.unity.modules.video": "1.0.0",
+        "com.unity.modules.animation": "1.0.0",
+        "com.unity.modules.imageconversion": "1.0.0",
+        "com.unity.render-pipelines.core": "17.0.4",
+        "com.unity.shadergraph": "17.0.4",
+        "com.unity.visualeffectgraph": "17.0.4",
+        "com.unity.render-pipelines.high-definition-config": "17.0.4"
+      }
+    },
+    "com.unity.render-pipelines.high-definition-config": {
+      "version": "file:C:/Users/Naufal Ahmad A/game gila - test/Library/PackageCache/com.unity.render-pipelines.high-definition-config@88d6678364c9",
+      "depth": 0,
+      "source": "local",
+      "dependencies": {
+        "com.unity.render-pipelines.core": "17.0.4"
+      }
+    },
+    "com.unity.rendering.light-transport": {
+      "version": "file:C:/Users/Naufal Ahmad A/game gila - test/Library/PackageCache/com.unity.rendering.light-transport@307bc27a498f",
+      "depth": 0,
+      "source": "local",
+      "dependencies": {
+        "com.unity.collections": "2.2.0",
+        "com.unity.mathematics": "1.2.4",
+        "com.unity.modules.terrain": "1.0.0"
+      }
+    },
+    "com.unity.searcher": {
+      "version": "file:C:/Users/Naufal Ahmad A/game gila - test/Library/PackageCache/com.unity.searcher@1e17ce91558d",
+      "depth": 0,
+      "source": "local",
+      "dependencies": {}
+    },
+    "com.unity.shadergraph": {
+      "version": "file:C:/Users/Naufal Ahmad A/game gila - test/Library/PackageCache/com.unity.shadergraph@0e6324a629e1",
+      "depth": 0,
+      "source": "local",
+      "dependencies": {
+        "com.unity.render-pipelines.core": "17.0.4",
+        "com.unity.searcher": "4.9.3"
+      }
+    },
+    "com.unity.test-framework": {
+      "version": "file:C:/Users/Naufal Ahmad A/game gila - test/Library/PackageCache/com.unity.test-framework@5ac417e07314",
+      "depth": 0,
+      "source": "local",
+      "dependencies": {
+        "com.unity.ext.nunit": "2.0.3",
+        "com.unity.modules.imgui": "1.0.0",
+        "com.unity.modules.jsonserialize": "1.0.0"
+      }
+    },
+    "com.unity.test-framework.performance": {
+      "version": "file:C:/Users/Naufal Ahmad A/game gila - test/Library/PackageCache/com.unity.test-framework.performance@fb0dc592af8b",
+      "depth": 0,
+      "source": "local",
+      "dependencies": {
+        "com.unity.test-framework": "1.1.31",
+        "com.unity.modules.jsonserialize": "1.0.0"
+      }
+    },
+    "com.unity.ugui": {
+      "version": "file:C:/Users/Naufal Ahmad A/game gila - test/Library/PackageCache/com.unity.ugui@c82f62fefab3",
+      "depth": 0,
+      "source": "local",
+      "dependencies": {
+        "com.unity.modules.ui": "1.0.0",
+        "com.unity.modules.imgui": "1.0.0"
+      }
+    },
+    "com.unity.visualeffectgraph": {
+      "version": "file:C:/Users/Naufal Ahmad A/game gila - test/Library/PackageCache/com.unity.visualeffectgraph@6ad6966e55a7",
+      "depth": 0,
+      "source": "local",
+      "dependencies": {
+        "com.unity.shadergraph": "17.0.4",
+        "com.unity.render-pipelines.core": "17.0.4"
+      }
+    },
+    "com.unity.modules.animation": {
+      "version": "1.0.0",
+      "depth": 0,
+      "source": "builtin",
+      "dependencies": {}
+    },
+    "com.unity.modules.audio": {
+      "version": "1.0.0",
+      "depth": 0,
+      "source": "builtin",
+      "dependencies": {}
+    },
+    "com.unity.modules.imageconversion": {
+      "version": "1.0.0",
+      "depth": 0,
+      "source": "builtin",
+      "dependencies": {}
+    },
+    "com.unity.modules.imgui": {
+      "version": "1.0.0",
+      "depth": 0,
+      "source": "builtin",
+      "dependencies": {}
+    },
+    "com.unity.modules.jsonserialize": {
+      "version": "1.0.0",
+      "depth": 0,
+      "source": "builtin",
+      "dependencies": {}
+    },
+    "com.unity.modules.physics": {
+      "version": "1.0.0",
+      "depth": 0,
+      "source": "builtin",
+      "dependencies": {}
+    },
+    "com.unity.modules.terrain": {
+      "version": "1.0.0",
+      "depth": 0,
+      "source": "builtin",
+      "dependencies": {}
+    },
+    "com.unity.modules.ui": {
+      "version": "1.0.0",
+      "depth": 0,
+      "source": "builtin",
+      "dependencies": {}
+    },
+    "com.unity.modules.unitywebrequest": {
+      "version": "1.0.0",
+      "depth": 1,
+      "source": "builtin",
+      "dependencies": {}
+    },
+    "com.unity.modules.video": {
+      "version": "1.0.0",
+      "depth": 0,
+      "source": "builtin",
+      "dependencies": {
+        "com.unity.modules.audio": "1.0.0",
+        "com.unity.modules.ui": "1.0.0",
+        "com.unity.modules.unitywebrequest": "1.0.0"
+      }
+    }
+  }
+}

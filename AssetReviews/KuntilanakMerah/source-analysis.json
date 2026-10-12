@@ -1,0 +1,1909 @@
+{
+  "fbx_version": 7400,
+  "fbx_file": "kuntilanak_merah/kuntilanak_merah/kuntilanak_merah_and_rig.fbx",
+  "fbx_sha256": "3fd1434140ac25041a576ce35563e5bc42ae2a42b1897eb7e355e3843cbf4943",
+  "object_types": {
+    "NodeAttribute": 25,
+    "Geometry": 1,
+    "Model": 26,
+    "Pose": 1,
+    "Deformer": 25,
+    "Material": 1,
+    "Texture": 2,
+    "Video": 1,
+    "AnimationStack": 1,
+    "AnimationLayer": 1,
+    "AnimationCurveNode": 75,
+    "AnimationCurve": 225
+  },
+  "meshes": [
+    {
+      "name": "char1::Geometry",
+      "control_points": 14016,
+      "polygons": 28630,
+      "triangles": 28630,
+      "uv_layers": 1,
+      "has_normals": true
+    }
+  ],
+  "models": [
+    {
+      "name": "Armature::Model",
+      "type": "Null"
+    },
+    {
+      "name": "char1::Model",
+      "type": "Mesh"
+    },
+    {
+      "name": "Hips::Model",
+      "type": "LimbNode"
+    },
+    {
+      "name": "LeftUpLeg::Model",
+      "type": "LimbNode"
+    },
+    {
+      "name": "LeftLeg::Model",
+      "type": "LimbNode"
+    },
+    {
+      "name": "LeftFoot::Model",
+      "type": "LimbNode"
+    },
+    {
+      "name": "LeftToeBase::Model",
+      "type": "LimbNode"
+    },
+    {
+      "name": "RightUpLeg::Model",
+      "type": "LimbNode"
+    },
+    {
+      "name": "RightLeg::Model",
+      "type": "LimbNode"
+    },
+    {
+      "name": "RightFoot::Model",
+      "type": "LimbNode"
+    },
+    {
+      "name": "RightToeBase::Model",
+      "type": "LimbNode"
+    },
+    {
+      "name": "Spine02::Model",
+      "type": "LimbNode"
+    },
+    {
+      "name": "Spine01::Model",
+      "type": "LimbNode"
+    },
+    {
+      "name": "Spine::Model",
+      "type": "LimbNode"
+    },
+    {
+      "name": "LeftShoulder::Model",
+      "type": "LimbNode"
+    },
+    {
+      "name": "LeftArm::Model",
+      "type": "LimbNode"
+    },
+    {
+      "name": "LeftForeArm::Model",
+      "type": "LimbNode"
+    },
+    {
+      "name": "LeftHand::Model",
+      "type": "LimbNode"
+    },
+    {
+      "name": "RightShoulder::Model",
+      "type": "LimbNode"
+    },
+    {
+      "name": "RightArm::Model",
+      "type": "LimbNode"
+    },
+    {
+      "name": "RightForeArm::Model",
+      "type": "LimbNode"
+    },
+    {
+      "name": "RightHand::Model",
+      "type": "LimbNode"
+    },
+    {
+      "name": "neck::Model",
+      "type": "LimbNode"
+    },
+    {
+      "name": "Head::Model",
+      "type": "LimbNode"
+    },
+    {
+      "name": "head_end::Model",
+      "type": "LimbNode"
+    },
+    {
+      "name": "headfront::Model",
+      "type": "LimbNode"
+    }
+  ],
+  "deformers": [
+    {
+      "name": "Armature::Deformer",
+      "type": "Skin",
+      "weighted_indices": 0
+    },
+    {
+      "name": "Hips::SubDeformer",
+      "type": "Cluster",
+      "weighted_indices": 2100
+    },
+    {
+      "name": "LeftUpLeg::SubDeformer",
+      "type": "Cluster",
+      "weighted_indices": 3390
+    },
+    {
+      "name": "LeftLeg::SubDeformer",
+      "type": "Cluster",
+      "weighted_indices": 3157
+    },
+    {
+      "name": "LeftFoot::SubDeformer",
+      "type": "Cluster",
+      "weighted_indices": 0
+    },
+    {
+      "name": "LeftToeBase::SubDeformer",
+      "type": "Cluster",
+      "weighted_indices": 0
+    },
+    {
+      "name": "RightUpLeg::SubDeformer",
+      "type": "Cluster",
+      "weighted_indices": 2158
+    },
+    {
+      "name": "RightLeg::SubDeformer",
+      "type": "Cluster",
+      "weighted_indices": 4855
+    },
+    {
+      "name": "RightFoot::SubDeformer",
+      "type": "Cluster",
+      "weighted_indices": 222
+    },
+    {
+      "name": "RightToeBase::SubDeformer",
+      "type": "Cluster",
+      "weighted_indices": 0
+    },
+    {
+      "name": "Spine02::SubDeformer",
+      "type": "Cluster",
+      "weighted_indices": 5694
+    },
+    {
+      "name": "Spine01::SubDeformer",
+      "type": "Cluster",
+      "weighted_indices": 5690
+    },
+    {
+      "name": "Spine::SubDeformer",
+      "type": "Cluster",
+      "weighted_indices": 5016
+    },
+    {
+      "name": "LeftShoulder::SubDeformer",
+      "type": "Cluster",
+      "weighted_indices": 5419
+    },
+    {
+      "name": "LeftArm::SubDeformer",
+      "type": "Cluster",
+      "weighted_indices": 1666
+    },
+    {
+      "name": "LeftForeArm::SubDeformer",
+      "type": "Cluster",
+      "weighted_indices": 327
+    },
+    {
+      "name": "LeftHand::SubDeformer",
+      "type": "Cluster",
+      "weighted_indices": 285
+    },
+    {
+      "name": "RightShoulder::SubDeformer",
+      "type": "Cluster",
+      "weighted_indices": 4355
+    },
+    {
+      "name": "RightArm::SubDeformer",
+      "type": "Cluster",
+      "weighted_indices": 1853
+    },
+    {
+      "name": "RightForeArm::SubDeformer",
+      "type": "Cluster",
+      "weighted_indices": 311
+    },
+    {
+      "name": "RightHand::SubDeformer",
+      "type": "Cluster",
+      "weighted_indices": 289
+    },
+    {
+      "name": "neck::SubDeformer",
+      "type": "Cluster",
+      "weighted_indices": 4413
+    },
+    {
+      "name": "Head::SubDeformer",
+      "type": "Cluster",
+      "weighted_indices": 3626
+    },
+    {
+      "name": "head_end::SubDeformer",
+      "type": "Cluster",
+      "weighted_indices": 0
+    },
+    {
+      "name": "headfront::SubDeformer",
+      "type": "Cluster",
+      "weighted_indices": 3874
+    }
+  ],
+  "animations": [
+    {
+      "type": "AnimationStack",
+      "name": "Armature|Armature|clip0|baselayer::AnimStack"
+    },
+    {
+      "type": "AnimationLayer",
+      "name": "Armature|Armature|clip0|baselayer::AnimLayer"
+    },
+    {
+      "type": "AnimationCurveNode",
+      "name": "T::AnimCurveNode"
+    },
+    {
+      "type": "AnimationCurve",
+      "name": "::AnimCurve"
+    },
+    {
+      "type": "AnimationCurve",
+      "name": "::AnimCurve"
+    },
+    {
+      "type": "AnimationCurve",
+      "name": "::AnimCurve"
+    },
+    {
+      "type": "AnimationCurveNode",
+      "name": "R::AnimCurveNode"
+    },
+    {
+      "type": "AnimationCurve",
+      "name": "::AnimCurve"
+    },
+    {
+      "type": "AnimationCurve",
+      "name": "::AnimCurve"
+    },
+    {
+      "type": "AnimationCurve",
+      "name": "::AnimCurve"
+    },
+    {
+      "type": "AnimationCurveNode",
+      "name": "S::AnimCurveNode"
+    },
+    {
+      "type": "AnimationCurve",
+      "name": "::AnimCurve"
+    },
+    {
+      "type": "AnimationCurve",
+      "name": "::AnimCurve"
+    },
+    {
+      "type": "AnimationCurve",
+      "name": "::AnimCurve"
+    },
+    {
+      "type": "AnimationCurveNode",
+      "name": "T::AnimCurveNode"
+    },
+    {
+      "type": "AnimationCurve",
+      "name": "::AnimCurve"
+    },
+    {
+      "type": "AnimationCurve",
+      "name": "::AnimCurve"
+    },
+    {
+      "type": "AnimationCurve",
+      "name": "::AnimCurve"
+    },
+    {
+      "type": "AnimationCurveNode",
+      "name": "R::AnimCurveNode"
+    },
+    {
+      "type": "AnimationCurve",
+      "name": "::AnimCurve"
+    },
+    {
+      "type": "AnimationCurve",
+      "name": "::AnimCurve"
+    },
+    {
+      "type": "AnimationCurve",
+      "name": "::AnimCurve"
+    },
+    {
+      "type": "AnimationCurveNode",
+      "name": "S::AnimCurveNode"
+    },
+    {
+      "type": "AnimationCurve",
+      "name": "::AnimCurve"
+    },
+    {
+      "type": "AnimationCurve",
+      "name": "::AnimCurve"
+    },
+    {
+      "type": "AnimationCurve",
+      "name": "::AnimCurve"
+    },
+    {
+      "type": "AnimationCurveNode",
+      "name": "T::AnimCurveNode"
+    },
+    {
+      "type": "AnimationCurve",
+      "name": "::AnimCurve"
+    },
+    {
+      "type": "AnimationCurve",
+      "name": "::AnimCurve"
+    },
+    {
+      "type": "AnimationCurve",
+      "name": "::AnimCurve"
+    },
+    {
+      "type": "AnimationCurveNode",
+      "name": "R::AnimCurveNode"
+    },
+    {
+      "type": "AnimationCurve",
+      "name": "::AnimCurve"
+    },
+    {
+      "type": "AnimationCurve",
+      "name": "::AnimCurve"
+    },
+    {
+      "type": "AnimationCurve",
+      "name": "::AnimCurve"
+    },
+    {
+      "type": "AnimationCurveNode",
+      "name": "S::AnimCurveNode"
+    },
+    {
+      "type": "AnimationCurve",
+      "name": "::AnimCurve"
+    },
+    {
+      "type": "AnimationCurve",
+      "name": "::AnimCurve"
+    },
+    {
+      "type": "AnimationCurve",
+      "name": "::AnimCurve"
+    },
+    {
+      "type": "AnimationCurveNode",
+      "name": "T::AnimCurveNode"
+    },
+    {
+      "type": "AnimationCurve",
+      "name": "::AnimCurve"
+    },
+    {
+      "type": "AnimationCurve",
+      "name": "::AnimCurve"
+    },
+    {
+      "type": "AnimationCurve",
+      "name": "::AnimCurve"
+    },
+    {
+      "type": "AnimationCurveNode",
+      "name": "R::AnimCurveNode"
+    },
+    {
+      "type": "AnimationCurve",
+      "name": "::AnimCurve"
+    },
+    {
+      "type": "AnimationCurve",
+      "name": "::AnimCurve"
+    },
+    {
+      "type": "AnimationCurve",
+      "name": "::AnimCurve"
+    },
+    {
+      "type": "AnimationCurveNode",
+      "name": "S::AnimCurveNode"
+    },
+    {
+      "type": "AnimationCurve",
+      "name": "::AnimCurve"
+    },
+    {
+      "type": "AnimationCurve",
+      "name": "::AnimCurve"
+    },
+    {
+      "type": "AnimationCurve",
+      "name": "::AnimCurve"
+    },
+    {
+      "type": "AnimationCurveNode",
+      "name": "T::AnimCurveNode"
+    },
+    {
+      "type": "AnimationCurve",
+      "name": "::AnimCurve"
+    },
+    {
+      "type": "AnimationCurve",
+      "name": "::AnimCurve"
+    },
+    {
+      "type": "AnimationCurve",
+      "name": "::AnimCurve"
+    },
+    {
+      "type": "AnimationCurveNode",
+      "name": "R::AnimCurveNode"
+    },
+    {
+      "type": "AnimationCurve",
+      "name": "::AnimCurve"
+    },
+    {
+      "type": "AnimationCurve",
+      "name": "::AnimCurve"
+    },
+    {
+      "type": "AnimationCurve",
+      "name": "::AnimCurve"
+    },
+    {
+      "type": "AnimationCurveNode",
+      "name": "S::AnimCurveNode"
+    },
+    {
+      "type": "AnimationCurve",
+      "name": "::AnimCurve"
+    },
+    {
+      "type": "AnimationCurve",
+      "name": "::AnimCurve"
+    },
+    {
+      "type": "AnimationCurve",
+      "name": "::AnimCurve"
+    },
+    {
+      "type": "AnimationCurveNode",
+      "name": "T::AnimCurveNode"
+    },
+    {
+      "type": "AnimationCurve",
+      "name": "::AnimCurve"
+    },
+    {
+      "type": "AnimationCurve",
+      "name": "::AnimCurve"
+    },
+    {
+      "type": "AnimationCurve",
+      "name": "::AnimCurve"
+    },
+    {
+      "type": "AnimationCurveNode",
+      "name": "R::AnimCurveNode"
+    },
+    {
+      "type": "AnimationCurve",
+      "name": "::AnimCurve"
+    },
+    {
+      "type": "AnimationCurve",
+      "name": "::AnimCurve"
+    },
+    {
+      "type": "AnimationCurve",
+      "name": "::AnimCurve"
+    },
+    {
+      "type": "AnimationCurveNode",
+      "name": "S::AnimCurveNode"
+    },
+    {
+      "type": "AnimationCurve",
+      "name": "::AnimCurve"
+    },
+    {
+      "type": "AnimationCurve",
+      "name": "::AnimCurve"
+    },
+    {
+      "type": "AnimationCurve",
+      "name": "::AnimCurve"
+    },
+    {
+      "type": "AnimationCurveNode",
+      "name": "T::AnimCurveNode"
+    },
+    {
+      "type": "AnimationCurve",
+      "name": "::AnimCurve"
+    },
+    {
+      "type": "AnimationCurve",
+      "name": "::AnimCurve"
+    },
+    {
+      "type": "AnimationCurve",
+      "name": "::AnimCurve"
+    },
+    {
+      "type": "AnimationCurveNode",
+      "name": "R::AnimCurveNode"
+    },
+    {
+      "type": "AnimationCurve",
+      "name": "::AnimCurve"
+    },
+    {
+      "type": "AnimationCurve",
+      "name": "::AnimCurve"
+    },
+    {
+      "type": "AnimationCurve",
+      "name": "::AnimCurve"
+    },
+    {
+      "type": "AnimationCurveNode",
+      "name": "S::AnimCurveNode"
+    },
+    {
+      "type": "AnimationCurve",
+      "name": "::AnimCurve"
+    },
+    {
+      "type": "AnimationCurve",
+      "name": "::AnimCurve"
+    },
+    {
+      "type": "AnimationCurve",
+      "name": "::AnimCurve"
+    },
+    {
+      "type": "AnimationCurveNode",
+      "name": "T::AnimCurveNode"
+    },
+    {
+      "type": "AnimationCurve",
+      "name": "::AnimCurve"
+    },
+    {
+      "type": "AnimationCurve",
+      "name": "::AnimCurve"
+    },
+    {
+      "type": "AnimationCurve",
+      "name": "::AnimCurve"
+    },
+    {
+      "type": "AnimationCurveNode",
+      "name": "R::AnimCurveNode"
+    },
+    {
+      "type": "AnimationCurve",
+      "name": "::AnimCurve"
+    },
+    {
+      "type": "AnimationCurve",
+      "name": "::AnimCurve"
+    },
+    {
+      "type": "AnimationCurve",
+      "name": "::AnimCurve"
+    },
+    {
+      "type": "AnimationCurveNode",
+      "name": "S::AnimCurveNode"
+    },
+    {
+      "type": "AnimationCurve",
+      "name": "::AnimCurve"
+    },
+    {
+      "type": "AnimationCurve",
+      "name": "::AnimCurve"
+    },
+    {
+      "type": "AnimationCurve",
+      "name": "::AnimCurve"
+    },
+    {
+      "type": "AnimationCurveNode",
+      "name": "T::AnimCurveNode"
+    },
+    {
+      "type": "AnimationCurve",
+      "name": "::AnimCurve"
+    },
+    {
+      "type": "AnimationCurve",
+      "name": "::AnimCurve"
+    },
+    {
+      "type": "AnimationCurve",
+      "name": "::AnimCurve"
+    },
+    {
+      "type": "AnimationCurveNode",
+      "name": "R::AnimCurveNode"
+    },
+    {
+      "type": "AnimationCurve",
+      "name": "::AnimCurve"
+    },
+    {
+      "type": "AnimationCurve",
+      "name": "::AnimCurve"
+    },
+    {
+      "type": "AnimationCurve",
+      "name": "::AnimCurve"
+    },
+    {
+      "type": "AnimationCurveNode",
+      "name": "S::AnimCurveNode"
+    },
+    {
+      "type": "AnimationCurve",
+      "name": "::AnimCurve"
+    },
+    {
+      "type": "AnimationCurve",
+      "name": "::AnimCurve"
+    },
+    {
+      "type": "AnimationCurve",
+      "name": "::AnimCurve"
+    },
+    {
+      "type": "AnimationCurveNode",
+      "name": "T::AnimCurveNode"
+    },
+    {
+      "type": "AnimationCurve",
+      "name": "::AnimCurve"
+    },
+    {
+      "type": "AnimationCurve",
+      "name": "::AnimCurve"
+    },
+    {
+      "type": "AnimationCurve",
+      "name": "::AnimCurve"
+    },
+    {
+      "type": "AnimationCurveNode",
+      "name": "R::AnimCurveNode"
+    },
+    {
+      "type": "AnimationCurve",
+      "name": "::AnimCurve"
+    },
+    {
+      "type": "AnimationCurve",
+      "name": "::AnimCurve"
+    },
+    {
+      "type": "AnimationCurve",
+      "name": "::AnimCurve"
+    },
+    {
+      "type": "AnimationCurveNode",
+      "name": "S::AnimCurveNode"
+    },
+    {
+      "type": "AnimationCurve",
+      "name": "::AnimCurve"
+    },
+    {
+      "type": "AnimationCurve",
+      "name": "::AnimCurve"
+    },
+    {
+      "type": "AnimationCurve",
+      "name": "::AnimCurve"
+    },
+    {
+      "type": "AnimationCurveNode",
+      "name": "T::AnimCurveNode"
+    },
+    {
+      "type": "AnimationCurve",
+      "name": "::AnimCurve"
+    },
+    {
+      "type": "AnimationCurve",
+      "name": "::AnimCurve"
+    },
+    {
+      "type": "AnimationCurve",
+      "name": "::AnimCurve"
+    },
+    {
+      "type": "AnimationCurveNode",
+      "name": "R::AnimCurveNode"
+    },
+    {
+      "type": "AnimationCurve",
+      "name": "::AnimCurve"
+    },
+    {
+      "type": "AnimationCurve",
+      "name": "::AnimCurve"
+    },
+    {
+      "type": "AnimationCurve",
+      "name": "::AnimCurve"
+    },
+    {
+      "type": "AnimationCurveNode",
+      "name": "S::AnimCurveNode"
+    },
+    {
+      "type": "AnimationCurve",
+      "name": "::AnimCurve"
+    },
+    {
+      "type": "AnimationCurve",
+      "name": "::AnimCurve"
+    },
+    {
+      "type": "AnimationCurve",
+      "name": "::AnimCurve"
+    },
+    {
+      "type": "AnimationCurveNode",
+      "name": "T::AnimCurveNode"
+    },
+    {
+      "type": "AnimationCurve",
+      "name": "::AnimCurve"
+    },
+    {
+      "type": "AnimationCurve",
+      "name": "::AnimCurve"
+    },
+    {
+      "type": "AnimationCurve",
+      "name": "::AnimCurve"
+    },
+    {
+      "type": "AnimationCurveNode",
+      "name": "R::AnimCurveNode"
+    },
+    {
+      "type": "AnimationCurve",
+      "name": "::AnimCurve"
+    },
+    {
+      "type": "AnimationCurve",
+      "name": "::AnimCurve"
+    },
+    {
+      "type": "AnimationCurve",
+      "name": "::AnimCurve"
+    },
+    {
+      "type": "AnimationCurveNode",
+      "name": "S::AnimCurveNode"
+    },
+    {
+      "type": "AnimationCurve",
+      "name": "::AnimCurve"
+    },
+    {
+      "type": "AnimationCurve",
+      "name": "::AnimCurve"
+    },
+    {
+      "type": "AnimationCurve",
+      "name": "::AnimCurve"
+    },
+    {
+      "type": "AnimationCurveNode",
+      "name": "T::AnimCurveNode"
+    },
+    {
+      "type": "AnimationCurve",
+      "name": "::AnimCurve"
+    },
+    {
+      "type": "AnimationCurve",
+      "name": "::AnimCurve"
+    },
+    {
+      "type": "AnimationCurve",
+      "name": "::AnimCurve"
+    },
+    {
+      "type": "AnimationCurveNode",
+      "name": "R::AnimCurveNode"
+    },
+    {
+      "type": "AnimationCurve",
+      "name": "::AnimCurve"
+    },
+    {
+      "type": "AnimationCurve",
+      "name": "::AnimCurve"
+    },
+    {
+      "type": "AnimationCurve",
+      "name": "::AnimCurve"
+    },
+    {
+      "type": "AnimationCurveNode",
+      "name": "S::AnimCurveNode"
+    },
+    {
+      "type": "AnimationCurve",
+      "name": "::AnimCurve"
+    },
+    {
+      "type": "AnimationCurve",
+      "name": "::AnimCurve"
+    },
+    {
+      "type": "AnimationCurve",
+      "name": "::AnimCurve"
+    },
+    {
+      "type": "AnimationCurveNode",
+      "name": "T::AnimCurveNode"
+    },
+    {
+      "type": "AnimationCurve",
+      "name": "::AnimCurve"
+    },
+    {
+      "type": "AnimationCurve",
+      "name": "::AnimCurve"
+    },
+    {
+      "type": "AnimationCurve",
+      "name": "::AnimCurve"
+    },
+    {
+      "type": "AnimationCurveNode",
+      "name": "R::AnimCurveNode"
+    },
+    {
+      "type": "AnimationCurve",
+      "name": "::AnimCurve"
+    },
+    {
+      "type": "AnimationCurve",
+      "name": "::AnimCurve"
+    },
+    {
+      "type": "AnimationCurve",
+      "name": "::AnimCurve"
+    },
+    {
+      "type": "AnimationCurveNode",
+      "name": "S::AnimCurveNode"
+    },
+    {
+      "type": "AnimationCurve",
+      "name": "::AnimCurve"
+    },
+    {
+      "type": "AnimationCurve",
+      "name": "::AnimCurve"
+    },
+    {
+      "type": "AnimationCurve",
+      "name": "::AnimCurve"
+    },
+    {
+      "type": "AnimationCurveNode",
+      "name": "T::AnimCurveNode"
+    },
+    {
+      "type": "AnimationCurve",
+      "name": "::AnimCurve"
+    },
+    {
+      "type": "AnimationCurve",
+      "name": "::AnimCurve"
+    },
+    {
+      "type": "AnimationCurve",
+      "name": "::AnimCurve"
+    },
+    {
+      "type": "AnimationCurveNode",
+      "name": "R::AnimCurveNode"
+    },
+    {
+      "type": "AnimationCurve",
+      "name": "::AnimCurve"
+    },
+    {
+      "type": "AnimationCurve",
+      "name": "::AnimCurve"
+    },
+    {
+      "type": "AnimationCurve",
+      "name": "::AnimCurve"
+    },
+    {
+      "type": "AnimationCurveNode",
+      "name": "S::AnimCurveNode"
+    },
+    {
+      "type": "AnimationCurve",
+      "name": "::AnimCurve"
+    },
+    {
+      "type": "AnimationCurve",
+      "name": "::AnimCurve"
+    },
+    {
+      "type": "AnimationCurve",
+      "name": "::AnimCurve"
+    },
+    {
+      "type": "AnimationCurveNode",
+      "name": "T::AnimCurveNode"
+    },
+    {
+      "type": "AnimationCurve",
+      "name": "::AnimCurve"
+    },
+    {
+      "type": "AnimationCurve",
+      "name": "::AnimCurve"
+    },
+    {
+      "type": "AnimationCurve",
+      "name": "::AnimCurve"
+    },
+    {
+      "type": "AnimationCurveNode",
+      "name": "R::AnimCurveNode"
+    },
+    {
+      "type": "AnimationCurve",
+      "name": "::AnimCurve"
+    },
+    {
+      "type": "AnimationCurve",
+      "name": "::AnimCurve"
+    },
+    {
+      "type": "AnimationCurve",
+      "name": "::AnimCurve"
+    },
+    {
+      "type": "AnimationCurveNode",
+      "name": "S::AnimCurveNode"
+    },
+    {
+      "type": "AnimationCurve",
+      "name": "::AnimCurve"
+    },
+    {
+      "type": "AnimationCurve",
+      "name": "::AnimCurve"
+    },
+    {
+      "type": "AnimationCurve",
+      "name": "::AnimCurve"
+    },
+    {
+      "type": "AnimationCurveNode",
+      "name": "T::AnimCurveNode"
+    },
+    {
+      "type": "AnimationCurve",
+      "name": "::AnimCurve"
+    },
+    {
+      "type": "AnimationCurve",
+      "name": "::AnimCurve"
+    },
+    {
+      "type": "AnimationCurve",
+      "name": "::AnimCurve"
+    },
+    {
+      "type": "AnimationCurveNode",
+      "name": "R::AnimCurveNode"
+    },
+    {
+      "type": "AnimationCurve",
+      "name": "::AnimCurve"
+    },
+    {
+      "type": "AnimationCurve",
+      "name": "::AnimCurve"
+    },
+    {
+      "type": "AnimationCurve",
+      "name": "::AnimCurve"
+    },
+    {
+      "type": "AnimationCurveNode",
+      "name": "S::AnimCurveNode"
+    },
+    {
+      "type": "AnimationCurve",
+      "name": "::AnimCurve"
+    },
+    {
+      "type": "AnimationCurve",
+      "name": "::AnimCurve"
+    },
+    {
+      "type": "AnimationCurve",
+      "name": "::AnimCurve"
+    },
+    {
+      "type": "AnimationCurveNode",
+      "name": "T::AnimCurveNode"
+    },
+    {
+      "type": "AnimationCurve",
+      "name": "::AnimCurve"
+    },
+    {
+      "type": "AnimationCurve",
+      "name": "::AnimCurve"
+    },
+    {
+      "type": "AnimationCurve",
+      "name": "::AnimCurve"
+    },
+    {
+      "type": "AnimationCurveNode",
+      "name": "R::AnimCurveNode"
+    },
+    {
+      "type": "AnimationCurve",
+      "name": "::AnimCurve"
+    },
+    {
+      "type": "AnimationCurve",
+      "name": "::AnimCurve"
+    },
+    {
+      "type": "AnimationCurve",
+      "name": "::AnimCurve"
+    },
+    {
+      "type": "AnimationCurveNode",
+      "name": "S::AnimCurveNode"
+    },
+    {
+      "type": "AnimationCurve",
+      "name": "::AnimCurve"
+    },
+    {
+      "type": "AnimationCurve",
+      "name": "::AnimCurve"
+    },
+    {
+      "type": "AnimationCurve",
+      "name": "::AnimCurve"
+    },
+    {
+      "type": "AnimationCurveNode",
+      "name": "T::AnimCurveNode"
+    },
+    {
+      "type": "AnimationCurve",
+      "name": "::AnimCurve"
+    },
+    {
+      "type": "AnimationCurve",
+      "name": "::AnimCurve"
+    },
+    {
+      "type": "AnimationCurve",
+      "name": "::AnimCurve"
+    },
+    {
+      "type": "AnimationCurveNode",
+      "name": "R::AnimCurveNode"
+    },
+    {
+      "type": "AnimationCurve",
+      "name": "::AnimCurve"
+    },
+    {
+      "type": "AnimationCurve",
+      "name": "::AnimCurve"
+    },
+    {
+      "type": "AnimationCurve",
+      "name": "::AnimCurve"
+    },
+    {
+      "type": "AnimationCurveNode",
+      "name": "S::AnimCurveNode"
+    },
+    {
+      "type": "AnimationCurve",
+      "name": "::AnimCurve"
+    },
+    {
+      "type": "AnimationCurve",
+      "name": "::AnimCurve"
+    },
+    {
+      "type": "AnimationCurve",
+      "name": "::AnimCurve"
+    },
+    {
+      "type": "AnimationCurveNode",
+      "name": "T::AnimCurveNode"
+    },
+    {
+      "type": "AnimationCurve",
+      "name": "::AnimCurve"
+    },
+    {
+      "type": "AnimationCurve",
+      "name": "::AnimCurve"
+    },
+    {
+      "type": "AnimationCurve",
+      "name": "::AnimCurve"
+    },
+    {
+      "type": "AnimationCurveNode",
+      "name": "R::AnimCurveNode"
+    },
+    {
+      "type": "AnimationCurve",
+      "name": "::AnimCurve"
+    },
+    {
+      "type": "AnimationCurve",
+      "name": "::AnimCurve"
+    },
+    {
+      "type": "AnimationCurve",
+      "name": "::AnimCurve"
+    },
+    {
+      "type": "AnimationCurveNode",
+      "name": "S::AnimCurveNode"
+    },
+    {
+      "type": "AnimationCurve",
+      "name": "::AnimCurve"
+    },
+    {
+      "type": "AnimationCurve",
+      "name": "::AnimCurve"
+    },
+    {
+      "type": "AnimationCurve",
+      "name": "::AnimCurve"
+    },
+    {
+      "type": "AnimationCurveNode",
+      "name": "T::AnimCurveNode"
+    },
+    {
+      "type": "AnimationCurve",
+      "name": "::AnimCurve"
+    },
+    {
+      "type": "AnimationCurve",
+      "name": "::AnimCurve"
+    },
+    {
+      "type": "AnimationCurve",
+      "name": "::AnimCurve"
+    },
+    {
+      "type": "AnimationCurveNode",
+      "name": "R::AnimCurveNode"
+    },
+    {
+      "type": "AnimationCurve",
+      "name": "::AnimCurve"
+    },
+    {
+      "type": "AnimationCurve",
+      "name": "::AnimCurve"
+    },
+    {
+      "type": "AnimationCurve",
+      "name": "::AnimCurve"
+    },
+    {
+      "type": "AnimationCurveNode",
+      "name": "S::AnimCurveNode"
+    },
+    {
+      "type": "AnimationCurve",
+      "name": "::AnimCurve"
+    },
+    {
+      "type": "AnimationCurve",
+      "name": "::AnimCurve"
+    },
+    {
+      "type": "AnimationCurve",
+      "name": "::AnimCurve"
+    },
+    {
+      "type": "AnimationCurveNode",
+      "name": "T::AnimCurveNode"
+    },
+    {
+      "type": "AnimationCurve",
+      "name": "::AnimCurve"
+    },
+    {
+      "type": "AnimationCurve",
+      "name": "::AnimCurve"
+    },
+    {
+      "type": "AnimationCurve",
+      "name": "::AnimCurve"
+    },
+    {
+      "type": "AnimationCurveNode",
+      "name": "R::AnimCurveNode"
+    },
+    {
+      "type": "AnimationCurve",
+      "name": "::AnimCurve"
+    },
+    {
+      "type": "AnimationCurve",
+      "name": "::AnimCurve"
+    },
+    {
+      "type": "AnimationCurve",
+      "name": "::AnimCurve"
+    },
+    {
+      "type": "AnimationCurveNode",
+      "name": "S::AnimCurveNode"
+    },
+    {
+      "type": "AnimationCurve",
+      "name": "::AnimCurve"
+    },
+    {
+      "type": "AnimationCurve",
+      "name": "::AnimCurve"
+    },
+    {
+      "type": "AnimationCurve",
+      "name": "::AnimCurve"
+    },
+    {
+      "type": "AnimationCurveNode",
+      "name": "T::AnimCurveNode"
+    },
+    {
+      "type": "AnimationCurve",
+      "name": "::AnimCurve"
+    },
+    {
+      "type": "AnimationCurve",
+      "name": "::AnimCurve"
+    },
+    {
+      "type": "AnimationCurve",
+      "name": "::AnimCurve"
+    },
+    {
+      "type": "AnimationCurveNode",
+      "name": "R::AnimCurveNode"
+    },
+    {
+      "type": "AnimationCurve",
+      "name": "::AnimCurve"
+    },
+    {
+      "type": "AnimationCurve",
+      "name": "::AnimCurve"
+    },
+    {
+      "type": "AnimationCurve",
+      "name": "::AnimCurve"
+    },
+    {
+      "type": "AnimationCurveNode",
+      "name": "S::AnimCurveNode"
+    },
+    {
+      "type": "AnimationCurve",
+      "name": "::AnimCurve"
+    },
+    {
+      "type": "AnimationCurve",
+      "name": "::AnimCurve"
+    },
+    {
+      "type": "AnimationCurve",
+      "name": "::AnimCurve"
+    },
+    {
+      "type": "AnimationCurveNode",
+      "name": "T::AnimCurveNode"
+    },
+    {
+      "type": "AnimationCurve",
+      "name": "::AnimCurve"
+    },
+    {
+      "type": "AnimationCurve",
+      "name": "::AnimCurve"
+    },
+    {
+      "type": "AnimationCurve",
+      "name": "::AnimCurve"
+    },
+    {
+      "type": "AnimationCurveNode",
+      "name": "R::AnimCurveNode"
+    },
+    {
+      "type": "AnimationCurve",
+      "name": "::AnimCurve"
+    },
+    {
+      "type": "AnimationCurve",
+      "name": "::AnimCurve"
+    },
+    {
+      "type": "AnimationCurve",
+      "name": "::AnimCurve"
+    },
+    {
+      "type": "AnimationCurveNode",
+      "name": "S::AnimCurveNode"
+    },
+    {
+      "type": "AnimationCurve",
+      "name": "::AnimCurve"
+    },
+    {
+      "type": "AnimationCurve",
+      "name": "::AnimCurve"
+    },
+    {
+      "type": "AnimationCurve",
+      "name": "::AnimCurve"
+    },
+    {
+      "type": "AnimationCurveNode",
+      "name": "T::AnimCurveNode"
+    },
+    {
+      "type": "AnimationCurve",
+      "name": "::AnimCurve"
+    },
+    {
+      "type": "AnimationCurve",
+      "name": "::AnimCurve"
+    },
+    {
+      "type": "AnimationCurve",
+      "name": "::AnimCurve"
+    },
+    {
+      "type": "AnimationCurveNode",
+      "name": "R::AnimCurveNode"
+    },
+    {
+      "type": "AnimationCurve",
+      "name": "::AnimCurve"
+    },
+    {
+      "type": "AnimationCurve",
+      "name": "::AnimCurve"
+    },
+    {
+      "type": "AnimationCurve",
+      "name": "::AnimCurve"
+    },
+    {
+      "type": "AnimationCurveNode",
+      "name": "S::AnimCurveNode"
+    },
+    {
+      "type": "AnimationCurve",
+      "name": "::AnimCurve"
+    },
+    {
+      "type": "AnimationCurve",
+      "name": "::AnimCurve"
+    },
+    {
+      "type": "AnimationCurve",
+      "name": "::AnimCurve"
+    }
+  ],
+  "animation_curve_summary": {
+    "curves": 225,
+    "key_counts": {
+      "1": 225
+    },
+    "varying_curves": 0,
+    "first_key_seconds": 0.0,
+    "last_key_seconds": 0.0
+  },
+  "materials": [
+    {
+      "name": "Material_1::Material",
+      "properties": [
+        [
+          "DiffuseColor",
+          "Color",
+          "",
+          "A",
+          1.0,
+          1.0,
+          1.0
+        ],
+        [
+          "AmbientColor",
+          "Color",
+          "",
+          "A",
+          0.05087608844041824,
+          0.05087608844041824,
+          0.05087608844041824
+        ],
+        [
+          "AmbientFactor",
+          "Number",
+          "",
+          "A",
+          0.0
+        ],
+        [
+          "BumpFactor",
+          "double",
+          "Number",
+          "",
+          0.0
+        ],
+        [
+          "SpecularColor",
+          "Color",
+          "",
+          "A",
+          1.0,
+          1.0,
+          1.0
+        ],
+        [
+          "SpecularFactor",
+          "Number",
+          "",
+          "A",
+          0.5
+        ],
+        [
+          "Shininess",
+          "Number",
+          "",
+          "A",
+          0.0
+        ],
+        [
+          "ShininessExponent",
+          "Number",
+          "",
+          "A",
+          0.0
+        ],
+        [
+          "ReflectionColor",
+          "Color",
+          "",
+          "A",
+          1.0,
+          1.0,
+          1.0
+        ]
+      ]
+    }
+  ],
+  "texture_references": [
+    {
+      "name": "base_color_texture::Texture",
+      "filenames": [
+        [
+          "/tmp/tmpu6mvbt6f/output/Character_output.fbm/texture_0.png"
+        ],
+        [
+          "Character_output.fbm/texture_0.png"
+        ]
+      ]
+    },
+    {
+      "name": "emission_color_texture::Texture",
+      "filenames": [
+        [
+          "/tmp/tmpu6mvbt6f/output/Character_output.fbm/texture_0.png"
+        ],
+        [
+          "Character_output.fbm/texture_0.png"
+        ]
+      ]
+    },
+    {
+      "name": "Material_1_basecolor::Video",
+      "filenames": [
+        [
+          "/tmp/tmpu6mvbt6f/output/Character_output.fbm/texture_0.png"
+        ],
+        [
+          "Character_output.fbm/texture_0.png"
+        ]
+      ]
+    }
+  ],
+  "global_settings": [
+    [
+      "UpAxis",
+      "int",
+      "Integer",
+      "",
+      1
+    ],
+    [
+      "UpAxisSign",
+      "int",
+      "Integer",
+      "",
+      1
+    ],
+    [
+      "FrontAxis",
+      "int",
+      "Integer",
+      "",
+      2
+    ],
+    [
+      "FrontAxisSign",
+      "int",
+      "Integer",
+      "",
+      1
+    ],
+    [
+      "CoordAxis",
+      "int",
+      "Integer",
+      "",
+      0
+    ],
+    [
+      "CoordAxisSign",
+      "int",
+      "Integer",
+      "",
+      1
+    ],
+    [
+      "OriginalUpAxis",
+      "int",
+      "Integer",
+      "",
+      -1
+    ],
+    [
+      "OriginalUpAxisSign",
+      "int",
+      "Integer",
+      "",
+      1
+    ],
+    [
+      "UnitScaleFactor",
+      "double",
+      "Number",
+      "",
+      1.0
+    ],
+    [
+      "OriginalUnitScaleFactor",
+      "double",
+      "Number",
+      "",
+      1.0
+    ],
+    [
+      "AmbientColor",
+      "ColorRGB",
+      "Color",
+      "",
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      "DefaultCamera",
+      "KString",
+      "",
+      "",
+      "Producer Perspective"
+    ],
+    [
+      "TimeMode",
+      "enum",
+      "",
+      "",
+      6
+    ],
+    [
+      "TimeSpanStart",
+      "KTime",
+      "Time",
+      "",
+      0
+    ],
+    [
+      "TimeSpanStop",
+      "KTime",
+      "Time",
+      "",
+      46186158000
+    ],
+    [
+      "CustomFrameRate",
+      "double",
+      "Number",
+      "",
+      30.0
+    ]
+  ],
+  "textures": [
+    {
+      "name": "KuntilanakMerah_biped_texture_0_metallic.png",
+      "size": [
+        2048,
+        2048
+      ],
+      "mode": "L",
+      "range": [
+        0,
+        200
+      ],
+      "channel_means": [
+        51.17854309082031
+      ],
+      "sha256": "a0e304fe87a4bd4083283a08d58a9dab983b36539f0711c8b8062f1c9b3cde60",
+      "archive_version": {
+        "size": [
+          2048,
+          2048
+        ],
+        "mode": "L",
+        "same_decoded_pixels": true,
+        "max_channel_difference": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            0
+          ]
+        ]
+      }
+    },
+    {
+      "name": "KuntilanakMerah_biped_texture_0_normal.png",
+      "size": [
+        2048,
+        2048
+      ],
+      "mode": "RGB",
+      "range": [
+        [
+          0,
+          254
+        ],
+        [
+          0,
+          254
+        ],
+        [
+          0,
+          255
+        ]
+      ],
+      "channel_means": [
+        126.91434526443481,
+        125.00165677070618,
+        245.05660557746887
+      ],
+      "sha256": "7b689257f0f3f1f16b0828cec8ba0c3ba7806becc4a45e6626449e307e5bd43b",
+      "archive_version": {
+        "size": [
+          2048,
+          2048
+        ],
+        "mode": "RGB",
+        "same_decoded_pixels": true,
+        "max_channel_difference": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            0
+          ]
+        ]
+      }
+    },
+    {
+      "name": "KuntilanakMerah_biped_texture_0_roughness.png",
+      "size": [
+        2048,
+        2048
+      ],
+      "mode": "L",
+      "range": [
+        0,
+        244
+      ],
+      "channel_means": [
+        158.054913520813
+      ],
+      "sha256": "57f43cce0ff16d1a93d4538c8a1b33ba32bb52e889113b7dbab29dc9044e8354",
+      "archive_version": {
+        "size": [
+          2048,
+          2048
+        ],
+        "mode": "L",
+        "same_decoded_pixels": true,
+        "max_channel_difference": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            0
+          ]
+        ]
+      }
+    },
+    {
+      "name": "texture_0.png",
+      "size": [
+        2048,
+        2048
+      ],
+      "mode": "RGBA",
+      "range": [
+        [
+          0,
+          255
+        ],
+        [
+          0,
+          249
+        ],
+        [
+          0,
+          216
+        ],
+        [
+          169,
+          255
+        ]
+      ],
+      "channel_means": [
+        46.93153095245361,
+        22.318129539489746,
+        24.52098059654236,
+        254.99935746192932
+      ],
+      "sha256": "01b5fc4306a30de1a0ea31689d5371a8ba65c5befb31d765a6af0e974b9bbbf1",
+      "archive_version": {
+        "size": [
+          2048,
+          2048
+        ],
+        "mode": "RGBA",
+        "same_decoded_pixels": true,
+        "max_channel_difference": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            0
+          ]
+        ]
+      }
+    }
+  ]
+}

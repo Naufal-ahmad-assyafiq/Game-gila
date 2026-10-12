@@ -1,0 +1,28 @@
+{
+  "dependencies": {
+    "com.unity.render-pipelines.high-definition": "file:C:/Users/Naufal Ahmad A/game gila - test/Library/PackageCache/com.unity.render-pipelines.high-definition@8310d0e96a2e",
+    "com.unity.modules.video": "1.0.0",
+    "com.unity.modules.animation": "1.0.0",
+    "com.unity.modules.imageconversion": "1.0.0",
+    "com.unity.render-pipelines.core": "file:C:/Users/Naufal Ahmad A/game gila - test/Library/PackageCache/com.unity.render-pipelines.core@2c53672ff4c2",
+    "com.unity.shadergraph": "file:C:/Users/Naufal Ahmad A/game gila - test/Library/PackageCache/com.unity.shadergraph@0e6324a629e1",
+    "com.unity.visualeffectgraph": "file:C:/Users/Naufal Ahmad A/game gila - test/Library/PackageCache/com.unity.visualeffectgraph@6ad6966e55a7",
+    "com.unity.render-pipelines.high-definition-config": "file:C:/Users/Naufal Ahmad A/game gila - test/Library/PackageCache/com.unity.render-pipelines.high-definition-config@88d6678364c9",
+    "com.unity.burst": "file:C:/Users/Naufal Ahmad A/game gila - test/Library/PackageCache/com.unity.burst@7a907cf5a459",
+    "com.unity.mathematics": "file:C:/Users/Naufal Ahmad A/game gila - test/Library/PackageCache/com.unity.mathematics@8017b507cc74",
+    "com.unity.ugui": "file:C:/Users/Naufal Ahmad A/game gila - test/Library/PackageCache/com.unity.ugui@c82f62fefab3",
+    "com.unity.collections": "file:C:/Users/Naufal Ahmad A/game gila - test/Library/PackageCache/com.unity.collections@56bff8827a7e",
+    "com.unity.modules.physics": "1.0.0",
+    "com.unity.modules.terrain": "1.0.0",
+    "com.unity.modules.jsonserialize": "1.0.0",
+    "com.unity.rendering.light-transport": "file:C:/Users/Naufal Ahmad A/game gila - test/Library/PackageCache/com.unity.rendering.light-transport@307bc27a498f",
+    "com.unity.searcher": "file:C:/Users/Naufal Ahmad A/game gila - test/Library/PackageCache/com.unity.searcher@1e17ce91558d",
+    "com.unity.modules.ui": "1.0.0",
+    "com.unity.modules.imgui": "1.0.0",
+    "com.unity.nuget.mono-cecil": "file:C:/Users/Naufal Ahmad A/game gila - test/Library/PackageCache/com.unity.nuget.mono-cecil@d6f9955a5d5f",
+    "com.unity.test-framework": "file:C:/Users/Naufal Ahmad A/game gila - test/Library/PackageCache/com.unity.test-framework@5ac417e07314",
+    "com.unity.test-framework.performance": "file:C:/Users/Naufal Ahmad A/game gila - test/Library/PackageCache/com.unity.test-framework.performance@fb0dc592af8b",
+    "com.unity.ext.nunit": "file:C:/Users/Naufal Ahmad A/game gila - test/Library/PackageCache/com.unity.ext.nunit@60ef35ffd3cd",
+    "com.unity.modules.audio": "1.0.0"
+  }
+}

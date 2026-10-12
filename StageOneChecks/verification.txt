@@ -1,0 +1,8 @@
+Stage one verification
+Unity: 6000.0.43f1
+Runtime and Editor script compilation: passed against installed Unity/project references.
+Isolated native Unity Play Mode: passed using the unchanged Single_Door prefab and the exact serialized key/ghost/trigger objects added to MainScene.
+Checks: locked door rejection, pickup raycast, missing compatibleDoor guard, pickup grant/removal, opening event at target rotation, hidden ghost cleanup, no event on close, no repeated scare on reopening.
+Scene preservation: 2008 pre-existing serialized blocks remain byte-for-byte unchanged; only the Single_Door_1 prefab instance overrides and scene root list changed. 102 new serialized blocks were added.
+MainScene visual/Game View check: not run in the user's active editor. Placeholder HDRP materials use the installed HDRP/Unlit shader; inspect final appearance in Game View.
+Backup of MainScene before scene modification: MainScene.before.txt

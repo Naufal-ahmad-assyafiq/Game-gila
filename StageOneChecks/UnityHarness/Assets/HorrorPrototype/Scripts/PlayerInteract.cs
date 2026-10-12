@@ -1,0 +1,1 @@
+namespace FpsHorrorKit { public class PlayerInteract : UnityEngine.MonoBehaviour { public static PlayerInteract Instance { get; private set; } public void ChangeInteractText(string text) {} } }

@@ -1,0 +1,13 @@
+{
+  "changed_existing_project_files": [
+    "Assets\\HorrorPrototype\\CREDITS.md",
+    "Assets\\FpsHorrorKit\\Scenes\\MainScene.unity",
+    "Assets\\HorrorPrototype\\README.md"
+  ],
+  "missing_files": [],
+  "unchanged_existing_files": 1616,
+  "source_fbx_unchanged": true,
+  "mask_channels_verified": true,
+  "backup": "C:\\Users\\Naufal Ahmad A\\game gila - test\\Backups\\MainScene_before_KuntilanakMerah_2026-10-08.unity",
+  "scope": "Native Unity 6000.0.43f1 isolated HDRP fixture uses original Single_Door prefab, exact stage objects and installed ghost prefab. Calls interaction methods after a physics raycast; does not drive keyboard E or run the complete MainScene environment."
+}
